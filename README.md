@@ -16,8 +16,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
     $ require 'i18n_countries'
     $ countries = I18nCountries.new
-    $ countries['en_US']['JP'])
-    $ # -> 'Japan'
+    $ countries['en_US']['JP']) # -> 'Japan'
 
 ## Development
 
