@@ -1,3 +1,3 @@
 # frozen_string_literal: true
 
-I18nCountries::VERSION = "0.1.1"
+I18nCountries::VERSION = "0.1.2"
