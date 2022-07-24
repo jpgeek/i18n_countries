@@ -9,3 +9,5 @@
 
 # rspec failure tracking
 .rspec_status
+
+i18n_countries-*.gem
