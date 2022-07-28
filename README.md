@@ -14,14 +14,17 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 Country lookup is done with ISO Alpha-2 code:
+
     $ require 'i18n_countries'
     $ i18nc = I18nCountries.new
 
 The returned object has two hashes.  'countries' contains a hash of hashes keyed
 on locale and Alpha-2 code:
+
     $ i18nc.countries['en_US']['JP']) # -> 'Japan'
 
 Alpha 3 and numeric codes are available in the 'codes' hash:
+
     $ i18nc.codes['JP']['a3'] # -> 'JPN'
     $ i18nc.codes['JP']['numeric'] # -> 392
 
