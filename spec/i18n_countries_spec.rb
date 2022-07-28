@@ -21,4 +21,9 @@ RSpec.describe I18nCountries do
     expect(i18n_countries.countries['en_US']['JP']).to eq('Japan')
     expect(i18n_countries.countries['ja_JP']['JP']).to eq('日本')
   end
+
+  it "loads numeric and alpha 3 codes" do
+    expect(i18n_countries.codes['JP']['a3']).to eq('JPN')
+    expect(i18n_countries.codes['JP']['numeric']).to eq(392)
+  end
 end
