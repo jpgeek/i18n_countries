@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     i18n_countries (0.1.3)
+      rake (~> 13.0)
 
 GEM
   remote: https://rubygems.org/
@@ -27,7 +28,6 @@ PLATFORMS
 
 DEPENDENCIES
   i18n_countries!
-  rake (~> 13.0)
   rspec (~> 3.0)
 
 BUNDLED WITH
